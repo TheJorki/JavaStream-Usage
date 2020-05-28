@@ -140,6 +140,11 @@ public class Main {
                 .forEach(System.out::println);
         System.out.println();
 
+         //17.Multiplication of array elements
+        int numbers[]={1,2,3,4,5,6};
+        int z=Arrays.stream(numbers).reduce(1,(k,l)->k*l);
+        System.out.println(z);
+
 
 
     }
